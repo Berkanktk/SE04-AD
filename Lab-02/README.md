@@ -1,27 +1,14 @@
 # Week 6
 
-# Hovedopgave 1
-
-Cormen et al. øvelse 2.2-3 (side 29). Svar også for best-case køretid.
-
-Consider linear search again (see Exercise 2.1-3). How many elements of the input
-sequence need to be checked on the average, assuming that the element being
-searched for is equally likely to be any element in the array? How about in the
-worst case? What are the average-case and worst-case running times of linear
-search in Θ‚-notation? Justify your answers.
-
-1. Given that each element is equally likely to be the one searched for and the element searched for is present in the array, a linear search will on the average have to search through half the elements.
+# Øvelsestimer
+## Hovedopgave 1
+Given that each element is equally likely to be the one searched for and the element searched for is present in the array, a linear search will on the average have to search through half the elements.
 This is because half the time the wanted element will be in the first half and half the time it will be in the second half. Both the worst-case and average-case of LINEAR-SEARCH is Θ(n).
 
-# Hovedopgave 2
+## Hovedopgave 2
+Done
 
-Cormen et al. øvelse 2.1-1 (side 22). Du skal blot udføre Insertionsort i handen, og behøver ikke lave tegningerne 100% som i bogen.
-
-1. Done
-
-# Hovedopgave 3
-
-Implementer InsertionSort i Java eller Python ud fra pseudo-koden side 18 i lærebogen. Test at din kode fungerer ved at generere arrays/lister med forskelligt indhold og sortere dem. NB: Bogens pseudokode indekserer arrays startende med index 1, mens Java og Python starter med index 0. Man må derfor ændre passende (dvs. nogle gange bruge et index som er ´en mindre) i de linier i pseudokoden, som involverer indekser.
+## Hovedopgave 3
 
 ```python
 def insertion_sort(array):
@@ -31,25 +18,27 @@ def insertion_sort(array):
             i -= 1
 ```
 
-# Hovedopgave 4
+## Hovedopgave 4
 
 (∗) Cormen et al. opgave 2-4 (side 41), spørgsmål a, b og c.
-
+### Underopgave 1
 1. List the five inversions of the array {2, 3, 8, 6, 1}
     1. (1, 5), (2, 5), (3, 4), (3, 5), and (4, 5)
-2. What array with elements from the set f{1,2,..,n} has the most inversions?
+### Underopgave 2
+1. What array with elements from the set f{1,2,..,n} has the most inversions?
 How many does it have?
     1. ?
+### Underopgave 3
 3. What is the relationship between the running time of insertion sort and the
 number of inversions in the input array? Justify your answer.
     1. The higher the number of inversions in an array, the longer insertion sort will take to sort the array.*
 
-# Hovedopgave 5
+## Hovedopgave 5
 
 1. Cormen et al. øvelse 2.3-1 (side 37).
     1. Done
 
-# Hovedopgave 6
+## Hovedopgave 6
 
 1. Cormen et al. øvelse 2.3-2 (side 37).
     1. Rewrite the MERGE procedure so that it does not use sentinels, instead stopping
@@ -85,13 +74,13 @@ number of inversions in the input array? Justify your answer.
         ```
         
 
-# Hovedopgave 7
+## Hovedopgave 7
 
 Vis for $f(n) = 0.1 · n^2 + 5 · n + 25$ at $f(n) = Θ(n^2)$ og $f(n) = o(n^3)$.
 
 1. ?
 
-# Hovedopgave 8
+## Hovedopgave 8
 
 Vis at følgende funktioner er skrevet op efter stigende asymptotisk
 voksehastighed:
@@ -103,8 +92,16 @@ at f(n) = o(g(n)). Hint: brug sætninger fra side 17 (og 18 og 19) i slides
 om analyse af algoritmers køretider.
     - ?
 
-# Hovedopgave 9
+## Hovedopgave 9
 
 1. (∗) Cormen et al. øvelse 3.1-1 (side 52). (Her skal man bruge selve
 definitionen af Θ() fra bog/slides, ikke sætninger side 17 fra slides.)
     1. ?
+   
+# Hjemmeopgaver
+## Hovedopgave 1
+## Hovedopgave 2
+## Hovedopgave 3
+## Hovedopgave 4
+## Hovedopgave 5
+## Hovedopgave 6
