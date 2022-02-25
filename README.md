@@ -1,6 +1,6 @@
-# SE04-AD
+# Algoritmer og Datastrukturer - Exercises
 
-| Uge  | Dato         | Emne                                   |
+| Uge  | Dato         | Emne                                    |
 |------|--------------|-----------------------------------------|
 | 5    | Tirsdag 1/2  | Introduktion til kurset                 |
 | 5    | Torsdag 3/2  | Insertionsort, Selectionsort, Mergesort |
